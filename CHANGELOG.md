@@ -1,5 +1,5 @@
 # Changelog
 
-## x.y.z - [yyy-mm-dd]
+## 1.0.0 - [2020-06-02]
 
-- xxxx
+- release first
