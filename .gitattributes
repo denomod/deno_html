@@ -1,1 +1,3 @@
-* text=auto
+# Use Unix line endings in all text files.
+* text=auto eol=lf
+*.png -text
