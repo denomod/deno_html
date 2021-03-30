@@ -2,7 +2,7 @@ export function html(
   strings: TemplateStringsArray,
   ...values: unknown[]
 ): string {
-  let parts: string[] = [strings[0]];
+  const parts: string[] = [strings[0]];
 
   for (let i = 0; i < values.length; i++) {
     parts.push(String(values[i]));
@@ -11,3 +11,5 @@ export function html(
 
   return parts.join("");
 }
+
+export const css = html;

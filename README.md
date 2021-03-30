@@ -12,12 +12,12 @@ Useful template literal tags for create html strings in ES2015+.
 ```ts
 import { html } from "https://deno.land/x/html/mod.ts";
 
-let languages = ['Rust', 'JavaScript', 'TypeScript'];
+let languages = ["Rust", "JavaScript", "TypeScript"];
 
 const str = html`
   <div class="list">
     <ul>
-      ${languages.map(x => `<li>${x}</li>`)}
+      ${languages.map((x) => `<li>${x}</li>`)}
     </ul>
   </div>
 `;
@@ -43,4 +43,5 @@ Outputs:
 
 ### License
 
-[deno_html](https://github.com/denomod/deno_html) is released under the MIT License. See the bundled [LICENSE](./LICENSE) file for details.
+[deno_html](https://github.com/denomod/deno_html) is released under the MIT
+License. See the bundled [LICENSE](./LICENSE) file for details.
