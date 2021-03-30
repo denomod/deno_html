@@ -3,9 +3,8 @@
 [![tag](https://img.shields.io/github/release/denomod/deno_html)](https://github.com/denomod/deno_html/releases)
 [![Build Status](https://github.com/denomod/deno_html/workflows/ci/badge.svg?branch=master)](https://github.com/denomod/deno_html/actions)
 [![license](https://img.shields.io/github/license/denomod/deno_html)](https://github.com/denomod/deno_html/blob/master/LICENSE)
-[![](https://img.shields.io/badge/deno-v1.0.3-green.svg)](https://github.com/denoland/deno)
 
-Useful template literal tags for create html strings in ES2015+.
+Useful template literal tags for create html/css strings in ES2015+.
 
 ## Usage
 
