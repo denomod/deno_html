@@ -1,6 +1,6 @@
 import { assertEquals } from "https://deno.land/std@0.91.0/testing/asserts.ts";
 
-import { html, css } from "./mod.ts";
+import { css, html } from "./mod.ts";
 
 Deno.test("html tag", (): void => {
   const name = "tom";

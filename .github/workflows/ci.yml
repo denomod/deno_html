@@ -10,11 +10,6 @@ jobs:
       matrix:
         os: [macOS-latest, ubuntu-latest, windows-latest]
 
-    env:
-      GH_ACTIONS: true
-      DENO_BUILD_MODE: release
-      V8_BINARY: true
-
     steps:
       - uses: actions/checkout@v2
       - name: Setup Deno
