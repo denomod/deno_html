@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.0 - [2021-03-30]
+
+- upgrade deno version
+
 ## 1.1.0 - [2021-03-30]
 
 - export css
