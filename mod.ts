@@ -1,15 +1,29 @@
+function stringify(value: unknown): string {
+  if (Array.isArray(value)) {
+    let result = "";
+
+    for (const item of value) {
+      result += stringify(item);
+    }
+
+    return result;
+  }
+
+  return String(value);
+}
+
 export function html(
   strings: TemplateStringsArray,
   ...values: unknown[]
 ): string {
-  const parts: string[] = [strings[0]];
+  let result = strings[0];
 
   for (let i = 0; i < values.length; i++) {
-    parts.push(String(values[i]));
-    parts.push(strings[i + 1]);
+    result += stringify(values[i]);
+    result += strings[i + 1];
   }
 
-  return parts.join("");
+  return result;
 }
 
 export const css = html;
